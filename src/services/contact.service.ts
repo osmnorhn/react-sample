@@ -1,5 +1,4 @@
 import { Contact } from "../types/contact";
-import { IRequestService } from "./request.service";
 
 export class ContactService {
   constructor(private request: IRequestService) {}
